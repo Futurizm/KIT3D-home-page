@@ -1,0 +1,43 @@
+.background {
+    background-image: url("../../../assets/Section-IMG/KIT3D.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+@media (max-width: 1024px) {
+    .background {
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .background {
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .background {
+        min-height: 390px;
+    }
+}
+
+@media (max-width: 450px) {
+    .background {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .background {
+        min-height: 200px;
+    }
+}
